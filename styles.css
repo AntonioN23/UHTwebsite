@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #f3f3f3;
+  margin: 20px;
+}
+
+nav{
+  position: sticky;
+  top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid tomato;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  user-select: none;
+}
+
+a:hover {
+  color: tomato;
+}
